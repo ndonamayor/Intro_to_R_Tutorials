@@ -1,0 +1,39 @@
+/* import extra-fonts used in tutorials */
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital@0;1&display=swap");
+
+
+
+/* general tips with cursive Indie Flower font and box in School Bus Yellow */
+
+.hot_tip {
+  background-color: rgba(232, 163, 23, .1);
+  padding: 15px;
+  padding-bottom: 5px;
+  border: 2px dashed black;
+  border-radius: 10px;
+  font-family: "Indie Flower";
+  font-size: 1.2em;
+  color: black;
+}
+
+
+
+/* exercice instructions in Lato Italic font and Sangria color */
+
+.exercise_instruction {
+  font-family: "Lato";
+  font-style: italic;
+  color: #7E3817;
+  font-size: 1.05em; 
+}
+
+
+
+/* non-italicized Lato Regular font for instruction highlights */
+
+.exercise_instruction_nonitalicized {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 1em; 
+}
